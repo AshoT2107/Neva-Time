@@ -153,6 +153,7 @@ h1 {
   border: 1px solid #000;
   font-family: "semibold";
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .link--gold {
@@ -208,12 +209,13 @@ h1 {
   gap: 13px;
 }
 
-.slogon {
+.slogan {
   max-width: 270px;
 }
 
 .logo {
   font-size: 40px;
+  text-transform: uppercase;
   font-family: "bodonic";
 }
 
@@ -331,4 +333,106 @@ h1 {
   width: 100%;
   color: #989898;
   resize: vertical;
+}
+
+/* FOOTER */
+
+.footer {
+  padding-top: 74px;
+  padding-bottom: 97px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer .links {
+  display: flex;
+  gap: 61.5px;
+}
+
+.footer .list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer .links a:hover {
+  color: #cdb494;
+}
+
+.footer .links a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer .slogan {
+  margin-bottom: 40px;
+}
+
+.footer .text {
+  font-size: 18px;
+  margin-bottom: 14px;
+  font-family: "semibold";
+}
+
+.footer input {
+  padding: 15px 25px;
+  width: 184px;
+  border: 0;
+  border-radius: unset;
+}
+
+.footer .input::placeholder {
+  color: #989898;
+}
+
+.subscribe button {
+  border-radius: 2px solid #cdb494;
+}
+
+.subscribe button:hover {
+  background-color: #fff;
+  color: #cdb494;
+  border-radius: 2px solid #cdb494;
+}
+
+.footer .about {
+  margin-right: 97.25px;
+}
+
+.footer .phone {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 4.5px;
+}
+
+.footer .contacts {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.footer .socials {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.socials a {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #cdb494;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials a:hover {
+  background-color: #fff;
+}
+
+.socials a:hover path {
+  fill: #cdb494;
 }
